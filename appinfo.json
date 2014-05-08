@@ -1,0 +1,40 @@
+{
+    "uuid": "4e9477fd-cb86-486e-9e81-8ea8d088e375",
+    "resources": {
+        "media": [
+            {
+                "name": "LED_SOLID",
+                "type": "png",
+                "file": "images/ledsolid.png"
+            },
+            {
+                "name": "LED_OUTLINE",
+                "type": "png",
+                "file": "images/ledoutline.png"
+            },
+            {
+                "name": "LED_HALFTONE",
+                "type": "png",
+                "file": "images/ledhalf.png"
+            },
+            {
+                "name": "MENU_ICON",
+                "type": "png",
+                "menuIcon": true,
+                "file": "images/icon.png"
+            }
+        ]
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "Steffan 'Ruirize' James",
+    "shortName": "Heko",
+    "longName": "Tokyoflash Heko",
+    "watchapp": {
+        "watchface": true
+    },
+    "versionCode": 1,
+    "appKeys": {},
+    "versionLabel": "1.0"
+}
