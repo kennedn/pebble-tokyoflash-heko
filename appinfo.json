@@ -1,40 +1,75 @@
 {
-    "uuid": "4e9477fd-cb86-486e-9e81-8ea8d088e375",
-    "resources": {
-        "media": [
-            {
-                "name": "LED_SOLID",
-                "type": "png",
-                "file": "images/ledsolid.png"
-            },
-            {
-                "name": "LED_OUTLINE",
-                "type": "png",
-                "file": "images/ledoutline.png"
-            },
-            {
-                "name": "LED_HALFTONE",
-                "type": "png",
-                "file": "images/ledhalf.png"
-            },
-            {
-                "name": "MENU_ICON",
-                "type": "png",
-                "menuIcon": true,
-                "file": "images/icon.png"
-            }
-        ]
+    "appKeys": {
+        "bi-accumulate": 18,
+        "bi-fill": 17,
+        "bi-invert": 19,
+        "bi-outline": 16,
+        "bo-accumulate": 14,
+        "bo-fill": 13,
+        "bo-invert": 15,
+        "bo-outline": 12,
+        "bottom-bg": 22,
+        "c-accumulate": 10,
+        "c-fill": 9,
+        "c-invert": 11,
+        "c-outline": 8,
+        "center-bg": 21,
+        "display-dividers": 23,
+        "ti-accumulate": 6,
+        "ti-fill": 5,
+        "ti-invert": 7,
+        "ti-outline": 4,
+        "to-accumulate": 2,
+        "to-fill": 1,
+        "to-invert": 3,
+        "to-outline": 0,
+        "top-bg": 20,
+        "vibe-connect": 25,
+        "vibe-disconnect": 24,
+        "vibe-hour": 26
     },
     "capabilities": [
         "configurable"
     ],
     "companyName": "Steffan 'Ruirize' James",
-    "shortName": "Heko",
     "longName": "Tokyoflash Heko",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/lednone.png",
+                "name": "LED_NONE",
+                "type": "png"
+            },
+            {
+                "file": "images/ledsolid.png",
+                "name": "LED_SOLID",
+                "type": "png"
+            },
+            {
+                "file": "images/ledoutline.png",
+                "name": "LED_OUTLINE",
+                "type": "png"
+            },
+            {
+                "file": "images/ledhalf.png",
+                "name": "LED_HALFTONE",
+                "type": "png"
+            },
+            {
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Heko",
+    "uuid": "4e9477fd-cb86-486e-9e81-8ea8d088e375",
+    "versionCode": 1,
+    "versionLabel": "1.0",
     "watchapp": {
         "watchface": true
-    },
-    "versionCode": 1,
-    "appKeys": {},
-    "versionLabel": "1.0"
+    }
 }
