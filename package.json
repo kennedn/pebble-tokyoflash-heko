@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "author": "Steffan 'Ruirize' James",
+  "private": true,
+  "dependencies": {},
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "LED_NONE",
+          "file": "images/lednone.png"
+        },
+        {
+          "type": "png",
+          "name": "LED_SOLID",
+          "file": "images/ledsolid.png"
+        },
+        {
+          "type": "png",
+          "name": "LED_OUTLINE",
+          "file": "images/ledoutline.png"
+        },
+        {
+          "type": "png",
+          "name": "LED_HALFTONE",
+          "file": "images/ledhalf.png"
+        },
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "MENU_ICON",
+          "file": "images/icon.png"
+        }
+      ]
+    },
+    "projectType": "native",
+    "uuid": "4e9477fd-cb86-486e-9e81-8ea8d088e375",
+    "messageKeys": {
+      "top_bg": 20,
+      "to_outline": 0,
+      "c_accumulate": 10,
+      "c_fill": 9,
+      "ti_outline": 4,
+      "to_accumulate": 2,
+      "bi_fill": 17,
+      "bi_invert": 19,
+      "c_invert": 11,
+      "bo_outline": 12,
+      "display_dividers": 23,
+      "bottom_bg": 22,
+      "c_outline": 8,
+      "bo_accumulate": 14,
+      "to_fill": 1,
+      "ti_accumulate": 6,
+      "ti_invert": 7,
+      "bo_invert": 15,
+      "vibe_connect": 25,
+      "vibe_hour": 26,
+      "bi_accumulate": 18,
+      "bo_fill": 13,
+      "center_bg": 21,
+      "bi_outline": 16,
+      "vibe_disconnect": 24,
+      "to_invert": 3,
+      "ti_fill": 5
+    },
+    "enableMultiJS": false,
+    "displayName": "Tokyoflash Heko",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": true
+    },
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "capabilities": [
+      "configurable"
+    ]
+  },
+  "name": "Heko"
+}
